@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant&family=Noto+Sans+JP:wght@300;400&display=swap');
+
+body {
+    background-color: #D97706;
+    color: #FCD34D
+    font-family: 'Assistant', sans-serif;
+font-family: 'Noto Sans JP', sans-serif;
+
+}
+
+h1 {
+    text-align: center;
+    margin: 6rem;
+}
+ 
+.container {
+    width: 50%;
+    margin: auto;
+}
+
+input,
+lable {
+    display: block;
+
+}
+input 
+{
+    margin-bottom: 0.5rem;
+    width: 100%;
+}
+#check-number {
+    display: block;
+    margin-top: 1rem;
+    margin: auto;
+    background:transparent;
+    color: yellow;
+    border-color: yellow;
+    border-width: medium;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+
+
+
+
+
