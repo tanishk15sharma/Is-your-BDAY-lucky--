@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Assistant&family=Noto+Sans+JP:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 body {
-    background-color: #D97706;
-    color: #FCD34D
+    background-color: 
+    #FEF08A;
+    color: #713F12;
     font-family: 'Assistant', sans-serif;
 font-family: 'Noto Sans JP', sans-serif;
 
@@ -10,34 +12,70 @@ font-family: 'Noto Sans JP', sans-serif;
 
 h1 {
     text-align: center;
-    margin: 6rem;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    font-family: 'Pacifico', cursive;
+}
+.dob {
+    padding: 7rem;
+    font-weight: bold;
 }
  
 .container {
-    width: 50%;
+    width: 35%;
     margin: auto;
 }
 
 input,
 lable {
     display: block;
+    margin-left: 7.2rem;
+    font-weight: bold;
 
 }
 input 
 {
-    margin-bottom: 0.5rem;
-    width: 100%;
+    
+    width: 40%;
+    margin-left: 7.5rem;
+    margin-bottom: 1.5rem;
+    
 }
 #check-number {
     display: block;
     margin-top: 1rem;
     margin: auto;
     background:transparent;
-    color: yellow;
-    border-color: yellow;
+    color: #78350F;
+    border-color: #713F12
+    ;
     border-width: medium;
     padding: 0.5rem;
     border-radius: 0.5rem;
+    font-weight: bold;
+    cursor:grab;
+}
+#date-of-birth {
+    
+    color: 
+    #713F12;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+#lucky-number {
+    color: 
+    #713F12;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+
+}
+#output-box {
+    margin-left: 0.1rem;
+    border: dotted;
+    text-align: center;
+    margin-top: 2rem;
+    font-weight: bold;
+    font-size: x-large;
 }
 
 
