@@ -78,6 +78,14 @@ input
     font-size: x-large;
 }
 
+.privacynote {
+    margin-top:10rem;
+    font-size:medium;
+    border: double;
+    border-width:thin
+    
+}
+
 
 
 
